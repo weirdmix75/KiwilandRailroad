@@ -1,0 +1,16 @@
+﻿<Window x:Class="KiwilandRailroad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KiwilandRailroad"
+        mc:Ignorable="d"
+        Title="Kiwiland" Height="417" Width="674" Loaded="Window_Loaded">
+    <Canvas>
+        <Button Content="Calculate" Canvas.Left="541" Canvas.Top="39" Height="29" Width="67" Click="Button_Click"/>
+        <TextBox Name="txtData" Text="" TextWrapping="Wrap" Width="441" Canvas.Left="47" Canvas.Top="39" Height="29"/>
+        <TextBox Name="txtResults" Text="" TextWrapping="Wrap" Width="561" Canvas.Left="47" Canvas.Top="121" Height="215"/>
+        <Label Name="lblData" Content="Test Data" Canvas.Left="47" Canvas.Top="8" Width="378"/>
+        <Label Name="lblResuts" Content="Results" Canvas.Left="48" Canvas.Top="90" Width="377"/>
+    </Canvas>
+</Window>
